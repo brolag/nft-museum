@@ -42,11 +42,13 @@
     "webpack-merge": "^5.2.0"
   },
   "dependencies": {
+    "antd-mobile": "^2.3.4",
     "axios": "^0.21.0",
     "git-cz": "^4.7.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
+    "rmc-tabs": "^1.2.29",
     "serve": "^11.3.2"
   },
   "prettier": {

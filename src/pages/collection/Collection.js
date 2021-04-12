@@ -19,6 +19,11 @@ const Collection = () => {
   return (
     <div className="prose prose-blue lg:prose-xl">
       <h1>Collection</h1>
+      <h1>Collection</h1>
+      <h1>Collection</h1>
+      <h1>Collection</h1>
+      <h1>Collection</h1>
+      
 
       {/* <div className="space-y-4">{posts.map(Post)}</div> */}
     </div>
