@@ -1,42 +1,31 @@
 import { Suspense } from 'react';
-import { BrowserRouter as Router, Switch, Route, useHistory } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 
 import Loading from '@/components/Loading';
 import routes from '@/routes';
-import Layout from '@/components/Layout';
 
-import { Tabs } from 'rmc-tabs';
+// components
+import TabBar from '@/components/TabBar';
 
 const App = () => {
-  const history = useHistory();
-
   return (
-    <Router>
-      <Layout>
+    <div className="">
+      <Router>
         <Suspense fallback={<Loading />}>
           <Switch>
-            <Tabs
-              animated={true}
-              swipeable={true}
-              onChange={(key) => {
-                console.log(key)
-                history.push(key.toLowerCase())
-              }}
-              tabBarPosition="bottom"
-              tabs={routes.map((props) => ({
-                key: props.title,
-                title: props.title,
-              }))}
-              initalPage={'Home'}
-            >
-              {routes.map((props) => {
-                return <Route key={props.title} {...props} />;
-              })}
-            </Tabs>
+            {routes.map((props) => {
+              console.log(props);
+              return <Route key={props.title} {...props} />;
+            })}
           </Switch>
         </Suspense>
-      </Layout>
-    </Router>
+        <TabBar />
+      </Router>
+    </div>
   );
 };
 
