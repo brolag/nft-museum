@@ -42,8 +42,8 @@
     "webpack-merge": "^5.2.0"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.6.2",
     "antd": "^4.15.1",
-    "antd-mobile": "^2.3.4",
     "axios": "^0.21.0",
     "git-cz": "^4.7.6",
     "lodash": "^4.17.21",
