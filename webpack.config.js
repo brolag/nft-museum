@@ -42,7 +42,7 @@ module.exports = {
 
   plugins: [
     new HtmlPlugin({
-      title: 'React, Tailwind and Webpack 5 Boilerplate',
+      title: 'NFT Museum',
       favicon: './src/assets/favicon.svg',
     }),
   ],
