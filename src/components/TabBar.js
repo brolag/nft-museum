@@ -1,5 +1,5 @@
 import { Tabs } from 'rmc-tabs';
-import routes from '@/routes';
+import { TabRoutes } from '@/routes';
 import { useHistory } from 'react-router';
 
 const TabBar = () => {
@@ -14,7 +14,7 @@ const TabBar = () => {
       style={{ height: '30px' }}
       className="fixed bottom-0"
       onTabClick={changeRoute}
-      tabs={routes.map((props) => ({
+      tabs={TabRoutes.map((props) => ({
         key: props.title,
         title: props.title,
       }))}

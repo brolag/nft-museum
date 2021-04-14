@@ -26,7 +26,7 @@ const Home = () => {
     <>
       <div
         style={{ height: 'calc(100vh - 30px)' }}
-        className="p-4 bg-light-gray"
+        className="p-4 bg-white"
       >
         <Header showSearch={showSearch} onClickSearch={onClickSearchIcon} />
 
@@ -56,7 +56,7 @@ const Home = () => {
           </>
         )}
 
-        <div className="flex justify-between items-center my-8">
+        <div className="flex justify-between items-center mt-8 mb-12">
           <span className="text-sm font-medium text-gray-500">Collections</span>
           <span className="text-sm font-medium text-gray-300">
             SORT / FILTER
