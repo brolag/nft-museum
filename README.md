@@ -4,7 +4,7 @@ NFT Museum
 
 > NFT Museum is a mobile first platform for art lovers to curate their favourite digital art.
 
-This project is deployed live at [https://foamviz.surge.sh](https://foamviz.surge.sh)
+This project is deployed live at [https://nft-museum.netlify.com](https://nft-museum.netlify.com)
 
 ## Table of contents
 - [What is  NFT Museum?](#what)
@@ -16,8 +16,8 @@ This project is deployed live at [https://foamviz.surge.sh](https://foamviz.surg
 
 ###  What is NFT Museum ? <a name = "what"></a>
 
-NFT Museum is a mobile first platform authenticated by multiple Crypto Wallets including Valora for art lovers to curate their favourite digital art pieces as a collection and be shared to community. A curator ( user who creates collection) can add multiple NFTs from OpenSea and create a collection by theme, asthetics or free will, just like a Spotify playlists !
-These collections are visible to everyone, searchable by Tags and number of likes.
+NFT Museum is a mobile first platform authenticated by multiple crypto wallets including Valora for art lovers to curate their favourite digital art pieces as a collection and be shared to community. A curator ( user who creates collection) can add multiple NFTs from OpenSea and create a collection by theme, asthetics or free will, just like a Spotify playlists !
+These collections are visible to everyone, searchable by tags and number of likes.
 
 ###  Why NFT Museum? <a name = "why"></a>
 
