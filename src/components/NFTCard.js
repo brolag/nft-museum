@@ -4,7 +4,7 @@ import NFTSVG from '@/assets/nft.svg';
 const NFTCard = () => {
   return (
     <>
-      <div className="relative bg-white w-full h-32 rounded-md p-4 mb-16">
+      <div className="relative bg-white w-full h-32 rounded-md p-4 mb-4">
         <div className="flex justify-between align-center">
           <NFTSVG className="w-20 h-20 rounded-md" />
           <div className="w-4/6">
