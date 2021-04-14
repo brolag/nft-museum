@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useHistory } from 'react-router';
 
 import CollectionCard from '@/components/CollectionCard';
 import Header from '@/components/Header';
@@ -17,10 +18,19 @@ const COLORS = [
 
 const Home = () => {
   const [showSearch, setShowSearch] = useState(true);
+  const history = useHistory();
 
   const onClickSearchIcon = () => {
     setShowSearch(!showSearch);
   };
+
+  useEffect(() => {
+    const localUserAuthID = localStorage.getItem('nft-museum-user-id');
+
+    if (!localUserAuthID) {
+      history.push('/auth');
+    }
+  }, [])
 
   return (
     <>
