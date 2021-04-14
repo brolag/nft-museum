@@ -8,11 +8,11 @@ const CollectionCard = () => {
       <span className="absolute top-0 right-0 bg-green-200 rounded-bl-lg rounded-tr-lg">
         <ArrowRightOutlined rotate="-45" className="p-1" />
       </span>
-      <div className="text-md font-medium text-gray-900 my-2">Old dream</div>
+      <div className="text-md font-medium text-gray-900 mb-2">Old dream</div>
       <div className="text-xs font-medium text-gray-700 my-2">
         Also known as door hinge. Used as a joint.
       </div>
-      <span className="flex mt-4">
+      <span className="flex mt-6">
         <StarOutlined />
         <p className="mx-2 text-xs font-normal">1,133</p>
       </span>
