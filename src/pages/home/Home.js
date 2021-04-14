@@ -1,20 +1,25 @@
 import { Link } from 'react-router-dom';
+import CollectionCard from '@/components/CollectionCard';
 
 const Home = () => {
   return (
     <>
-      <div style={{ height: 'calc(100vh - 30px)' }} className="prose prose-blue lg:prose-xl">
-        <h1>React, Tailwind and Webpack 5 Boilerplate</h1>
+      <div
+        style={{ height: 'calc(100vh - 30px)' }}
+        className="p-4 bg-light-gray"
+      >
+        <div className="flex justify-between items-center mb-16">
+          <span className="text-sm font-medium text-gray-500">Collections</span>
+          <span className="text-sm font-medium text-gray-300">
+            SORT / FILTER
+          </span>
+        </div>
 
-        <p>
-          A bare minimum, and as much as un-opinionated as can be, boilerplate
-          so you can start develope and deploy React apps with Tailwind CSS and
-          Webpack 5.
-        </p>
-
-        <p>
-          Checkout <Link to="/collection">collection</Link> page.
-        </p>
+        <div className="flex flex-wrap justify-between">
+          {[1, 2, 3, 4].map((item) => (
+            <CollectionCard />
+          ))}
+        </div>
       </div>
     </>
   );
