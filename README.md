@@ -38,7 +38,7 @@ You can also save your favourite collections and NFTs to your librar in single t
 
 ### Link for backend Repository
 [@nft-museum-api](https://github.com/HemabhKamboj/nft-museum-api)
-## ✍️ Authors <a name = "author"></a>
+## ✍️ Authors <a name = "authors"></a>
 -   [@dhruv10](https://github.com/dhruv10)
 -   [@hardik-ahuja](https://github.com/hardik-ahuja)
 -   [@HemabhKamboj](https://github.com/HemabhKamboj)
