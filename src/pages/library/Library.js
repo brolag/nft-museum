@@ -13,7 +13,7 @@ const Library = () => {
   return (
     <>
       <div
-        style={{ height: 'calc(100vh - 30px)', backgroundColor: '#F5F7FA' }}
+        style={{ height: 'calc(100vh - 46px)', backgroundColor: '#F5F7FA' }}
         className="p-4"
       >
         <Header showSearch={true} />

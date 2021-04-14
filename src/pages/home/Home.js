@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <>
       <div
-        style={{ height: 'calc(100vh - 30px)' }}
+        style={{ height: 'calc(100vh - 62px)' }}
         className="p-4 bg-white"
       >
         <Header showSearch={showSearch} onClickSearch={onClickSearchIcon} />
