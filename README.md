@@ -4,8 +4,6 @@ NFT Museum
 
 > NFT Museum is a mobile first platform for art lovers to curate their favourite digital art.
 
-This project is deployed live at [https://nft-museum.netlify.com](https://nft-museum.netlify.com)
-
 ## Table of contents
 - [What is  NFT Museum?](#what)
 - [Why  NFT Museum?](#why)
@@ -24,8 +22,11 @@ These collections are visible to everyone, searchable by tags and number of like
 With mind bogling numbers of NFT enabled digital art minted each day, it is harder and harder for collectors to find there next collection piece, NFT Museum helps you to discover the precious pearls from the "Open Sea".
 You can also save your favourite collections and NFTs to your librar in single tap which can be easily accessible anytime.
 
-## User flows <a name = "user_flows"></a>
+## User flow <a name = "user_flows"></a>
 
+Splash Screen |  Connect Wallet |  Discover Collections | Search | See NFTs in a Collection | Save favorite stuff | Publish your own Collections
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:| :-------------------------:|
+![](https://user-images.githubusercontent.com/32517802/114796149-d0a04700-9dad-11eb-9ee2-fde847c8647a.png)  |  ![](https://user-images.githubusercontent.com/32517802/114796167-e150bd00-9dad-11eb-9b59-81dd67d5105d.png) | ![](https://user-images.githubusercontent.com/32517802/114797721-68536480-9db1-11eb-9c6a-6674af7df832.png) | ![](https://user-images.githubusercontent.com/32517802/114797730-70130900-9db1-11eb-8a84-cd5510f12ff6.png) | ![](https://user-images.githubusercontent.com/32517802/114797741-76a18080-9db1-11eb-9aed-05897fb6f667.png) | ![](https://user-images.githubusercontent.com/32517802/114797757-7d2ff800-9db1-11eb-8fb3-0bd3d3b42243.png) | ![](https://user-images.githubusercontent.com/32517802/114797797-9173f500-9db1-11eb-9764-962e58427895.png)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -42,3 +43,12 @@ You can also save your favourite collections and NFTs to your librar in single t
 -   [@dhruv10](https://github.com/dhruv10)
 -   [@hardik-ahuja](https://github.com/hardik-ahuja)
 -   [@HemabhKamboj](https://github.com/HemabhKamboj)
+
+## Additional Screenshots
+
+
+![image](https://user-images.githubusercontent.com/32517802/114797773-84570600-9db1-11eb-8c59-753da79e474b.png)
+
+![image](https://user-images.githubusercontent.com/32517802/114797786-8b7e1400-9db1-11eb-8c87-7e477bd55800.png)
+
+![image](https://user-images.githubusercontent.com/32517802/114797811-99cc3000-9db1-11eb-8f43-352abe723451.png)
